@@ -19,7 +19,7 @@ h2   {font-style:oblique;}
 
 .grapefruit {
     display: flex;
-    direction: ;
+    direction:ltr;
     background-color: DodgerBlue;}
 
 .flex-projects {
@@ -43,9 +43,12 @@ h2   {font-style:oblique;}
     margin: 20px;
 }
 
-.padding {
     
-}
+
+
+
+
+
 
 .gptcontainer {
     display: flex;
@@ -64,8 +67,53 @@ h2   {font-style:oblique;}
   }
   
   @media (max-width: 768px) {
-    .container {
+    .gptcontainer {
       flex-direction: column;
       text-align: center;
     }
   }
+
+
+
+
+
+
+ /* Flex container */
+.container {
+  display: flex;
+  flex-direction: row; /* Side-by-side layout by default */
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  gap: 20px; /* Spacing between image and text */
+}
+
+/* Image styling */
+.image {
+  flex: 1 1 50%; /* Take up half of the container */
+  max-width: 50%; /* Prevent overflow */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Text styling */
+.text {
+  flex: 1 1 50%; /* Take up half of the container */
+  max-width: 600px; /* Optional: Limit text width */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack image and text vertically */
+    text-align: center; /* Center text for better layout */
+  }
+
+  .text {
+    max-width: 100%; /* Allow text to take full width */
+  }
+}
+
+
+
+
+    
