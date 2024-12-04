@@ -1,81 +1,30 @@
-body {background-color: rgb(255, 144, 222); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+body{background-color: rgb(255, 144, 222); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 h1   {color: rgb(0, 0, 0); padding-left: 10%;}
 p    {color: rgb(0, 0, 0); font-size: 16pt;}
 h2   {font-style:oblique;}
 /* Create three equal columns that floats next to each other */
-.row {
-    display: -webkit-flex;
-    display: flex; }
-  
-.column {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    padding: 10px;
-    height: 50px; /* Should be removed. Only for demonstration*/ 
-    background-color: tan;
-     
-     margin:20px; }
-
-.grapefruit {
-    display: flex;
-    direction:ltr;
-    background-color: DodgerBlue;}
-
-.flex-projects {
-    display: flex; 
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 1%;
-    padding-bottom: 0%;}
-
-.mycontainer {
-    width:33%;
-    background-color: black;}
-
-.aboutme {
-    color:black;
-    background-color: rgb(255, 255, 255);
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin: 20px;
-}
-
-    
-
-
-
-
-
 
 .gptcontainer {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 2% 10%;
     gap: 20px;
   }
-  
-  .gptimage {
-    flex: 1;
-    max-width: 100%;
-  }
-  
-  .gpttext {
-    flex: 1;
-  }
-  
   @media (max-width: 768px) {
     .gptcontainer {
       flex-direction: column;
       text-align: center;
+      
+    }
+    .gimage {
+      flex: 1;
+      max-width: 40%;
+    }
+    .gpttext {
+      flex: 0 0 auto; /* Prevent the text from shrinking */
+      width: 90%; /* Adjust the text width as needed */
     }
   }
-
-
-
-
 
 
  /* Flex container */
@@ -89,9 +38,9 @@ h2   {font-style:oblique;}
 }
 
 /* Image styling */
-.image {
+.gptimage {
   flex: 1 1 50%; /* Take up half of the container */
-  max-width: 50%; /* Prevent overflow */
+  max-width: 30%; /* Prevent overflow */
   height: auto; /* Maintain aspect ratio */
 }
 
@@ -114,6 +63,39 @@ h2   {font-style:oblique;}
 }
 
 
+.gptcontainer2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Optional: Add space between image and text */
+  padding: 10px;
+  gap: 20px;
+  flex-direction: row-reverse; /* Reverse the order of children */
+}
+.gptimage2 {
+  flex: 1;
+  max-width: 70%;
+  height: auto;
+}
+.gpttext2 {
+  flex: 0 2 auto; /* Prevent the text from shrinking */
+  width: 90%; /* Adjust the text width as needed */
+}
+.center-container {
+  text-align: center; /* Center-align text inside the container */
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 50%; /* Container width (responsive) */
+  max-width: 600px; /* Maximum width */
+}
 
-
-    
+.box {
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100; /* Full height of the viewport */
+  background-color: #f4f4f4; /* Light background for contrast */
+  font-family: Arial, sans-serif;
+}
