@@ -1,0 +1,76 @@
+.headerbox {
+    background-color: rgb(207, 207, 207); 
+    font-family: 'Montserrat';font-size: 22px;
+      margin:auto;
+      width: 90%;
+      padding-left: 5%; padding-right: 5%;
+      padding-top: 5px; padding-bottom: 5px;
+  }
+  
+  .hello {
+    margin-left:;
+    font-size: 70pt;
+    background-color: aqua;
+    font-family: 'Montserrat';
+  
+    padding: 20 20 20 20;
+}
+      .lucy {
+         
+          margin-top: 0pt;
+          margin: left; margin-right: 25%;
+          font-size: 70pt;
+          background-color: #ff6f7b;
+          font-family: 'Montserrat';
+          padding-left: 40px; 
+          padding-right: 40px;
+          max-width: 600px;
+          min-width: 500px;
+          border-top-right-radius: 200px;
+          border-bottom-right-radius: 200px;
+
+
+  
+      }
+      
+      .logo {
+          height: auto;
+       font-family: Veranda;
+       background-color: aquamarine;
+  }
+      .h2 {
+          font-size: 50px;
+          font-family: 'Montserrat';
+          
+      }
+  hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
+
+
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(237, 237, 237);
+    
+  }
+  
+  .flex-container > div {
+    background-color: #ffffff;
+    width: 300px;
+    margin: 10px;
+    padding-left: auto; padding-right: auto; padding-top: 10px; padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat';
+  }
+
+  img {
+    max-height: 100%;
+  }
+
+
