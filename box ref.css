@@ -1,76 +1,149 @@
+
+body { margin-left: 0;
+padding-left: 30;}
+
+p {
+ 
+  margin-top: 10px; margin-bottom: 5px;
+}
+.margin {
+  margin-top: 0; margin-bottom: 0;
+  padding-left: px;
+}
 .headerbox {
-    background-color: rgb(207, 207, 207); 
-    font-family: 'Montserrat';font-size: 22px;
-      margin:auto;
-      width: 90%;
-      padding-left: 5%; padding-right: 5%;
-      padding-top: 5px; padding-bottom: 5px;
+    background-color: rgb(255, 255, 255); 
+    font-family: 'Montserrat';
+    font-size: 22px;
+      padding-left: 3%; padding-right: 3%;
+      padding-top: 25px; padding-bottom: 25px;
+      margin-top: px; margin-bottom:px;
+      margin-left: 12%; margin-right: 12%;
+      min-width: 250px;
   }
   
-  .hello {
-    padding-left: 40px;
+  .bubbleright {
+    
+    background-color: rgb(0, 0, 0);
+    margin-left: auto; margin-right: auto;
+    margin-bottom: 10px;
+    padding-left: 100px; 
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 300px;
+    min-width: 300px;
+    border-bottom-left-radius: 200px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+
+}
+
+
+.hello {
+  color: white;
+  font-family: 'Montserrat';
+    text-align: center;
     font-size: 70pt;
-    background-color: aqua;
-    font-family: 'Montserrat';
-  
-    padding: 20 20 20 20;
+}
+
+.bubbleleft { 
+  background-color: #ff6f7b;
+  margin-top: 0px; margin-bottom: 0px;
+  margin-right: 25%;
+  padding-left: 20%; 
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  max-width: 550px;
+  min-width: 320px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+          
+}
+.im {
+  font-size: 30pt;
+  font-family: 'Montserrat';
+  padding-left: 50px;
 }
       .lucy {
-         
-          margin-top: 0pt;
-          margin: left; margin-right: 25%;
           font-size: 70pt;
-          background-color: #ff6f7b;
           font-family: 'Montserrat';
-          padding-left: 40px; 
-          padding-right: 40px;
-          max-width: 600px;
-          min-width: 500px;
-          border-top-right-radius: 200px;
-          border-bottom-right-radius: 200px;
-
-
-  
+          color: white;
       }
       
       .logo {
           height: auto;
        font-family: Veranda;
-       background-color: aquamarine;
+       margin-left: 40px;
+       margin-top: 30px;
+       
   }
       .h2 {
           font-size: 50px;
           font-family: 'Montserrat';
+          padding-top: 30px; padding-bottom: 20px;
           
       }
+    
+
+
+
+  
   hr.rounded {
     border-top: 8px solid #bbb;
     border-radius: 5px;
   }
 
-
-
-
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(237, 237, 237);
+    vertical-align: auto;
+    padding-left: 5%; padding-right: 5%;
+    
     
   }
-  
   .flex-container > div {
     background-color: #ffffff;
     width: 300px;
     margin: 10px;
-    padding-left: auto; padding-right: auto; padding-top: 10px; padding-bottom: 10px;
+    padding-left: auto; padding-right: auto; padding-top: 20px; padding-bottom: 20px;
     text-align: center;
     font-size: 30px;
     font-family: 'Montserrat';
+    border-radius: 40px;
+
+    
+    box-shadow: inset 0 0 0.5px 1px hsla(0, 0%,  
+  100%, 0.075),
+  /* shadow ring 👇 */
+  0 0 0 1px hsla(0, 0%, 0%, 0.05),
+  /* multiple soft shadows 👇 */
+  0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
+  0 0.9px 1.5px hsla(0, 0%, 0%, 0.045),
+  0 3.5px 6px hsla(0, 0%, 0%, 0.09);
   }
 
-  img {
-    max-height: 100%;
+
+.r {
+  border-radius: 30px;
+}
+  .boxsides {
+    margin-left: 30px;
   }
+.spacer{
+  margin-top: 200px;
+}
 
-
+.shadow {
+  /* inner glow 👇 */
+box-shadow: inset 0 0 0.5px 1px hsla(0, 0%,  
+  100%, 0.075),
+  /* shadow ring 👇 */
+  0 0 0 1px hsla(0, 0%, 0%, 0.05),
+  /* multiple soft shadows 👇 */
+  0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
+  0 0.9px 1.5px hsla(0, 0%, 0%, 0.045),
+  0 3.5px 6px hsla(0, 0%, 0%, 0.09);
+}
