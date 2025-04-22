@@ -86,6 +86,7 @@ p {
           
       }
     
+      .h3 { margin-top: 20px; margin-bottom: 20px;}
 
 
 
@@ -103,8 +104,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(237, 237, 237);
-    vertical-align: auto;
-    padding-left: 5%; padding-right: 5%; padding-top: 20px; padding-bottom: 20px;
+    vertical-align: center;
+    padding-left: 5%; padding-right: 5%; padding-top: 30px; padding-bottom: 30px;
     
     
   }
