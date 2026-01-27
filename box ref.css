@@ -104,7 +104,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(57, 57, 57);
     vertical-align: center;
     padding-left: 5%; padding-right: 5%; padding-top: 30px; padding-bottom: 30px;
     
@@ -185,3 +185,4 @@ box-shadow: inset 0 0 0.5px 1px hsla(0, 0%,
     justify-content: left;
    padding-left: 15%;
 }
+
