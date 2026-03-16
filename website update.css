@@ -37,7 +37,7 @@ p {
   
 .bubblefloat {
     
-    background-color: rgb(129, 129, 129);
+    background-color: #333;
 
     margin-left: 20%; margin-right: auto;
     margin-bottom: 10px; margin-top: 40px;
@@ -80,7 +80,7 @@ p {
 }
 
 .bubbleright { 
-  background-color: rgb(129, 129, 129); color: white;
+  background-color: #333 ; color: white;
   margin-left: 30%;
   margin-top: 50px; 
   padding-left: 10%;
